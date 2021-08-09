@@ -16,7 +16,7 @@
                 @enderror
             </div>
             <div class="mb-4">
-                <label for="username" class="sr-only"></label>
+                <label for="username" class="sr-only">اسم المستخدم</label>
                 <input type="text" name="username" id="username" placeholder="اسم المستخدم"
                     class="bg-gray-100 border-2 w-full p-4 rounded-lg @error('username') border-red-500 @enderror"
                     value="{{ old('username') }}">

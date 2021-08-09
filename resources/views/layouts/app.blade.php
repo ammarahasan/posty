@@ -23,7 +23,7 @@
                 <a href="{{ route('dashboard') }}" class="p-3">لوحة التحكم</a>
             </li>
             <li>
-                <a href="{{ route('posts.index') }}" class="p-3">المدونة</a>
+                <a href="{{ route('posts') }}" class="p-3">المدونة</a>
             </li>
         </ul>
 
