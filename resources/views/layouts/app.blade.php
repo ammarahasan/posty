@@ -52,6 +52,8 @@
     </nav>
 
     @yield("content")
+
+    <footer class="p-4 text-center bg-white mt-5">CopyRight 2021 Ammar A Hasan</footer>
 </body>
 
 </html>

@@ -35,6 +35,7 @@
             <p class="mb-2">{{ $post->body }}</p>
         </div>
         @endforeach
+        {{ $posts->links() }}
         @else
         <p class="mb-2 mt-5">لا توجد منشورات</p>
         @endif
